@@ -12,6 +12,8 @@ public class TwoTest extends Base {
 	public WebDriver driver;
 	@Test
 	public void testTwo() throws IOException, InterruptedException {
+		
+		System.out.println("Pavan updated this code ");
 		driver=initializeDriver();
 		
 		driver.get(prop.getProperty("url2"));
